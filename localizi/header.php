@@ -1,7 +1,10 @@
 <?php
 
-header ('Content-type: text/html; charset=ISO-8859-1');
+require_once dirname(__FILE__).'/config.php';
 
-$path = 'header';
+$path = isset($path)? $path: 'header';
 
-require dirname(__FILE__).'/load.php';
+$page = isset($_GET['p'])? $_GET['p']: 'index';
+
+if(file_exists($_ll['app']['pasta'].$path.'/'.$page.'.php'))
+    require_once $_ll['app']['pasta'].$path.'/'.$page.'.php';

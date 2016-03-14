@@ -9,3 +9,5 @@ require_once $_ll['app']['pasta']. 'classes/endereco.php';
 
 //configura o db para a conexao corrente.
 db::conectar($conexao);
+
+?>
