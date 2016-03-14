@@ -2,7 +2,7 @@
 
 /* @var $apigem api */
 
-$apigem->inicia('navigi');
+lliure::iniciaApi('navigi');
 
 $botoes[] = array(
     'href' => $_ll['app']['home'] . '&p=mapa&mapa=config',

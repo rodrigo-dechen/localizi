@@ -48,20 +48,6 @@
                 <input type="text" name="telefone" value="<?php echo $dados_mapa['telefone']?>"/>
             </div>
             
-            <div>
-                <label>Teste</label>
-                
-                <?php 
-                $tag = new tags();
-                $tag->config(PREFIXO. 'teste', $_GET['id']);
-                $tag->tabelaDeBusca(PREFIXO. 'teste_2');
-                $tag->novos(FALSE);
-                $tag->sugestoes(FALSE);
-                echo $tag;
-                ?>
-                
-            </div>
-            
         </fieldset>
 
         <div class="botoes">
