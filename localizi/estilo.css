@@ -1,0 +1,120 @@
+#contato{
+    
+    }
+
+    #contato .dados{
+        
+        }
+
+        #contato .dados fieldset{
+
+            }
+
+            #contato .dados fieldset legend{
+                margin-bottom: 1em;
+                font-size: 17px;
+                }
+
+            #contato .dados fieldset p{
+                float: left;
+                width: 100%;
+                }
+
+                #contato .dados fieldset p span{
+                    float: left;
+                    width: 300px;
+                    }
+
+                    #contato .dados fieldset p span.coment{
+                        margin: 4px 0;
+                        width: auto;
+                        }
+                        
+                    #contato .dados fieldset p span.alinhadoADireita{
+                        float: right;
+                        width: auto;
+                        }
+
+                #contato .dados fieldset p label{
+                    display: inline;
+                    float: left;
+                    width: 100%;
+                    margin: 5px 0;
+                    }
+
+                #contato .dados fieldset p input,
+                #contato .dados fieldset p select,
+                #contato .dados fieldset p textarea{
+                    margin: 0;
+                    float: left;
+                    width: 100%;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    }
+                    
+                #contato .dados fieldset p input[type="checkbox"]{
+                    margin: 6px 10px 6px 0;
+                    width: auto;
+                    }
+                    
+                #contato .dados fieldset p textarea{
+                    resize: vertical;
+                    height: 200px;
+                    }
+                    
+            #contato .dados fieldset .lista{
+                float: left;
+                width: 160px;
+                margin-right: 5px;
+                }
+                
+                #contato .dados fieldset .lista a{
+                    float: left;
+                    width: 100%;
+                    height: 26px;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    padding: 7px;
+                    white-space:nowrap;
+                    overflow: hidden;
+                    }
+                
+                #contato .dados fieldset .lista li{
+                    float: left;
+                    width: 100%;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                    margin: 0 0 5px 0;
+                    background-color: #ededed;
+                    }
+                
+                #contato .dados fieldset .lista li.cele{
+                    background-color: #f9f9f9;
+                    }
+                
+                #contato .dados fieldset .lista li.novoCampo{
+                    background-color: #fff;
+                    }
+                    
+                    #contato .dados fieldset .lista li.novoCampo img{
+                        float: left;
+                        margin: -5px 5px 0 0;
+                        }
+
+            #contato .dados fieldset .boxDados{
+                float: left;
+                width: 435px;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                padding: 5px 12px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                background-color: #f9f9f9;
+                }
+                
+                #contato .dados fieldset .boxDados .textoInicial{
+                    height: 260px
+                    }
+        
